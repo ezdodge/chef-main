@@ -694,9 +694,9 @@ class LL1Parser:
                     return True
         return False
     
-# for non_terminal, productions in cfg.items():
-#     for i, item in enumerate(productions):
-#         print(f"{non_terminal} -> {productions[i]}")
+for non_terminal, productions in cfg.items():
+    for i, item in enumerate(productions):
+        print(f"{non_terminal} -> {productions[i]}")
 
 # print("First Sets:")
 # for non_terminal, first in first_set.items():
